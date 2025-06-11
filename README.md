@@ -1,4 +1,4 @@
-#🧮 Simple Java Swing Calculator
+# 🧮 Simple Java Swing Calculator
 Welcome to this fun and easy-to-use calculator made with Java Swing!
 It lets you enter two numbers and an operator (+, -, *, or /) and shows the result when you press the Equals button.
 
@@ -15,7 +15,7 @@ A graphical calculator app that includes:
 
 ✅ Answer label to display the result
 
-##🛠️ How It Works
+## 🛠️ How It Works
 When you click the Equals button:
 
 The app checks if all input boxes are filled.
@@ -43,7 +43,7 @@ Java Swing (JFrame, JButton, JTextField, JLabel, GridLayout, JOptionPane)
 
 Basic Event Handling with ActionListener
 
-##▶️ How to Run
+## ▶️ How to Run
 Open the code in a Java IDE like IntelliJ IDEA, NetBeans, BlueJ, or Eclipse.
 
 Make sure your project has the correct Java SDK set up.
@@ -52,7 +52,7 @@ Compile and run the program.
 
 Type two numbers, add an operator (+, -, *, /) and click Equals!
 
-##👶 Ideal For:
+## 👶 Ideal For:
 Java beginners
 
 Learning GUI with Swing
@@ -61,7 +61,7 @@ Practicing basic input, validation, and event handling
 
 Making a cool little project for class or fun
 
-##📝 Example:
+## 📝 Example:
 First Number	Second Number	Operator	Result
 5	3	+	8.0
 10	2	/	5.0
