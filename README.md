@@ -1,68 +1,43 @@
-# 🧮 Simple Java Swing Calculator
-Welcome to this fun and easy-to-use calculator made with Java Swing!
-It lets you enter two numbers and an operator (+, -, *, or /) and shows the result when you press the Equals button.
+# 🧮 Java Swing Calculator
 
-##📦 What's Inside?
-A graphical calculator app that includes:
+A basic calculator application built using **Java Swing**. This calculator allows users to perform simple arithmetic operations including addition, subtraction, multiplication, and division, with a clean graphical user interface.
 
-🟦 Text box for the first number
+---
 
-🟦 Text box for the second number
+## 📌 Features
 
-➕ Text box to type the operator (+, -, *, /)
+- Basic operations: `+`, `-`, `×`, `÷`
+- Supports decimal input (e.g. `3.14`)
+- Error handling for invalid input and divide-by-zero
+- Clear (`C`) button to reset the calculator
+- Responsive and intuitive layout using `GridBagLayout`
 
-🟨 "Equals" button to calculate
+---
+## 📦 How to Run
 
-✅ Answer label to display the result
+Make sure you have **Java (JDK 8 or above)** installed.
 
-## 🛠️ How It Works
-When you click the Equals button:
+1. Clone or download this repository.
+2. Open a terminal or command prompt in the project directory.
+3. Compile the Java file:
+   ```bash
+   javac Calculator.java
+4. java Calculator
 
-The app checks if all input boxes are filled.
+## 💡 How It Works
+Numbers (0–9) and the decimal point (.) are entered via buttons.
 
-It reads the numbers and operator.
+Operator buttons (+, -, *, /) store the first number and the chosen operation.
 
-It performs the correct math operation:
+Pressing = evaluates the expression and shows the result.
 
-+ → Add
+Pressing C clears all input and resets the calculator.
 
-- → Subtract
+## 📜 License
+This project is licensed under the MIT License.
 
-* → Multiply
+## 👨‍💻 Author
+Siphokaiz Visagie
 
-/ → Divide
 
-The answer appears below!
-
-If something is missing or wrong, you’ll see a pop-up message telling you what to fix.
-
-🧰 Tools Used
-Java
-
-Java Swing (JFrame, JButton, JTextField, JLabel, GridLayout, JOptionPane)
-
-Basic Event Handling with ActionListener
-
-## ▶️ How to Run
-Open the code in a Java IDE like IntelliJ IDEA, NetBeans, BlueJ, or Eclipse.
-
-Make sure your project has the correct Java SDK set up.
-
-Compile and run the program.
-
-Type two numbers, add an operator (+, -, *, /) and click Equals!
-
-## 👶 Ideal For:
-Java beginners
-
-Learning GUI with Swing
-
-Practicing basic input, validation, and event handling
-
-Making a cool little project for class or fun
-
-## 📝 Example:
-First Number	Second Number	Operator	Result
-5	3	+	8.0
-10	2	/	5.0
 
